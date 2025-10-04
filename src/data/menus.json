@@ -1,0 +1,17 @@
+[
+  { "id": 1, "restaurantId": 1, "name": "biryani", "price": 120, "rating": 4.6, "image": "/images/biryani.jpeg" },
+  { "id": 2, "restaurantId": 1, "name": "parotta", "price": 30, "rating": 4.6, "image": "/images/parotta.jpeg" },
+  { "id": 3, "restaurantId": 1, "name": "sweet Pongal", "price": 999, "rating": 4.4, "image": "/images/sweet-pongal.jpeg" },
+  { "id": 4, "restaurantId": 1, "name": "poori", "price": 40, "rating": 4.3, "image": "/images/poori.jpeg" },
+  { "id": 5, "restaurantId": 1, "name": "chicken Gravy", "price": 140, "rating": 4.6, "image": "/images/chicken-gravy.jpeg" },
+  { "id": 6, "restaurantId": 1, "name": "mutton Chukka", "price": 145, "rating": 4.8, "image": "/images/mutton-chukka.jpeg" },
+  { "id": 7, "restaurantId": 1, "name": "chicken Chettinad", "price": 125, "rating": 4.7, "image": "/images/chicken-chettinad.jpeg" },
+  { "id": 8, "restaurantId": 1, "name": "paneer Butter Masala", "price": 110, "rating": 4.7, "image": "/images/paneer-butter-masala.jpeg" },
+  { "id": 9, "restaurantId": 1, "name": "fish Fry", "price": 130, "rating": 4.5, "image": "/images/fish-fry.jpeg" },
+  { "id": 10, "restaurantId": 1, "name": "prawn Fry", "price": 160, "rating": 4.7, "image": "/images/prawn-fry.jpeg" },
+  { "id": 11, "restaurantId": 1, "name": "mutton Biryani", "price": 150, "rating": 4.9, "image": "/images/mutton-biryani.jpeg" },
+  { "id": 12, "restaurantId": 1, "name": "dosa", "price": 50, "rating": 4.5, "image": "/images/dosa.jpeg" },
+  { "id": 13, "restaurantId": 1, "name": "chicken Fry", "price": 100, "rating": 4.5, "image": "/images/chicken-fry.jpeg" },
+  { "id": 14, "restaurantId": 1, "name": "fish Curry", "price": 135, "rating": 4.6, "image": "/images/fish-curry.jpeg" },
+  { "id": 15, "restaurantId": 1, "name": "idli", "price": 30, "rating": 4.3, "image": "/images/idli.jpeg" }
+]

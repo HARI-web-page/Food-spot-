@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import WelcomePage from "./pages/Welcome";
+import Menu from "./components/Menu";
+import KitchenDisplay from "./components/KitchenDisplay";
+import FoodDetail from "./pages/FoodDetail";
+import Bill from "./pages/Bill";
+import ThankYoupage from "./pages/ThankYou";
+import TablePage from "./pages/TablePage"; // ✅ Add new component
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Navigate to="/welcome" />} />
+        <Route path="/welcome" element={<WelcomePage />} />
+        <Route path="/menu/:id" element={<Menu />} />
+        <Route path="/food/:id" element={<FoodDetail />} />
+        <Route path="/bill" element={<Bill />} />
+        <Route path="/kitchendisplay" element={<KitchenDisplay />} />
+        <Route path="/thankyou" element={<ThankYoupage />} />
+        <Route path="/table/:tableId" element={<TablePage />} /> {/* ✅ New route */}
+      </Routes>
+    </Router>
   );
 }
 
